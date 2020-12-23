@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Restaurant Web Sitesi - Sitemize Hoşgeldiniz</title>
+	<!-- Meta Etiketleri -->
+	<meta charset="utf-8">
+	<meta name="description" content="Restaurant Web Sitesi Lezzet Durağı">
+	<meta name="keywords" content="restaurant,lezzet,tatlı,kebap,çorba,ev yemekleri,ızgara,yemek,içecek">
+	<meta name="author" content="Duygu Özel">
+	<!-- Css Bağlantısı -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- YAZI AİLESİ BAĞLANTILARI -->
+	<!-- Üst Başlıklar İçin -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!--Alt Başlıklar İçin -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Sansita+Swashed&display=swap" rel="stylesheet">
+    <!-- Paragraf İçin -->
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    
+    <!-- EL yazısısı -->
+    <link rel="stylesheet" type="text/css" href="<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+	<header id="mainHeader">
+		<div id="mainContainer">
+			<div id="headerTop">
+				<ul id="ulTopleft">
+			   	<li><a href="index.html">Anasayfa</a></li>
+			   	<li><a href="about-us.html">Hakkımızda</a></li>
+			   	<li><a href="contact.html">İletişim</a></li>
+			   </ul>
+			   <div id="topRight">
+			   	<div class="topContectlogo">
+			   		<img src="images/telefon.jpg">
+			   	</div>
+			   	<div class="topContectText">
+			   		123 456 789
+			   	</div>
+
+			   	<div class="topContectlogo">
+			   		<img src="images/mail.png">
+			   	</div>
+			   	<div class="topContectText">
+			   		zlduygu12@gmail.com
+			   	</div>
+			   </div>
+              	 <div style="clear:both; "></div>	
+			</div>
+
+			<div id="headerText">
+				<h1>WEB SİTEMİZE HOŞGELDİNİZ</h1>
+				<h2>YEMEĞE DE BEKLERİZ</h2>
+				<p>Deneyimli aşçılarımızın ellerinden masalarınıza lezzet yolculuğu</p>
+
+				<div id="headerButtons">
+					<a href="rezervation.html">REZERVASYON</a>
+					<a href="package-service.html">PAKET SERVİS</a>
+					
+				</div>
+			</div>
+
+        </div>
+		    <nav>
+          		<div id="navContanier">
+          			<div id="navlogo">DUYGUOZEL</div>
+          			<ul id="ulnavRight">
+          				<li>
+          					<a href="index.html">ANASAYFA</a>
+          				</li>
+          				<li>
+          					<a href="menu.html">MENU</a>
+          				</li>
+          				<li><a href="rezervation.html">REZERVASYON</a>
+          				</li>
+          				<li><a href="package-service.html">PAKET SERVİS</a>
+          				</li>
+          				<li>
+          					<a href="contact.html">İLETİŞİM</a>
+          				</li>
+
+          			</ul>
+          		</div>
+			</nav>
+    </header>
+
+    <!-- Section Başlangıcı-->
+
+    <!-- Birinci Section -->
+    <section class="limitSec">
+    	<h1>RESTORANTIMIZA HOŞGELDİNİZ</h1>
+    	<h2>İNANILMAZ LEZETTELER SİZİ BEKLİYOR</h2>
+    	<img src="images/yemek.png">
+
+    	<article>
+    		<div class="iconBox" style="background: url(images/info1.png);"></div>
+    		<p>
+   Hava sıcak, çok çok sıcak.
+ 
+   Öyle mutfağa girip saatlerce ocak, fırın başında yemek yapmak eskisi kadar keyifli olamayabiliyor, farkındayız. Hemen pratik bir şeyler hazırlamak ama aynı zamanda da mükellef sofralar kurmak istiyoruz.
+ 
+   İşte bu pratik yaz yemekleriyle bu mümkün. Sizi mutfakta sıcakta zora sokmayacak ama aynı zamanda yaza yakışır enfes yemekler hazırlamanızı sağlayacak bu tarifleri çok seveceksiniz.
+    			
+    		</p>
+
+    		<p>
+   Hava sıcak, çok çok sıcak.
+ 
+   Öyle mutfağa girip saatlerce ocak, fırın başında yemek yapmak eskisi kadar keyifli olamayabiliyor, farkındayız. Hemen pratik bir şeyler hazırlamak ama aynı zamanda da mükellef sofralar kurmak istiyoruz.
+     			
+    		</p>
+    	</article>
+    	<div style="clear: both;"></div>
+    </section>
+	
+	<!-- İkinci Section -->
+	<section class="unlimitedSec">
+		<div id="menuContanier">
+			<img src="images/yemek2.png">
+			<img src="images/yemek2.png">
+			<img src="images/yemek2.png">
+			<img src="images/yemek2.png">
+			<img src="images/yemek2.png">
+			<img src="images/yemek2.png">
+			<img src="images/yemek2.png">
+			<img src="images/yemek2.png">
+
+			<div id="menulinkContainer">
+			<h1>MENÜYÜ GÖRMEK İÇİN TIKLAYINIZ</h1>
+			<a href="menu.html">MENÜYE GİT</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Üçüncü Section -->
+	<section class="limitSec">
+		<div class="teamContanier">
+			<h1>MUTFAK EKİBİMİZ</h1>
+			<div class="teamTile">
+				<img src="images/asci1.jpg">
+				<div class="teamHover">
+					<div class="teamText">
+						<h1>ALİ VELİ</h1>
+						<h2>ET YEMELERİ</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="teamTile">
+				<img src="images/asci2.jpg">
+				<div class="teamHover">
+					<div class="teamText">
+						<h1>DUYGU ÖZEL</h1>
+						<h2>EV YEMELERİ</h2>
+					</div>
+					
+				</div>
+			</div>
+			<div class="teamTile">
+				<img src="images/asci3.jpg">
+				<div class="teamHover">
+					<div class="teamText">
+						<h1>MERT ÖZEL</h1>
+						<h2>TATLILAR</h2>
+					</div>
+					
+				</div>
+			</div>
+
+			<div style="clear: left;"></div>
+			
+		</div>
+	</section>
+
+   <!-- DÖRDÜNCÜ SECTION --> 
+
+   <section class="unlimitedSec" style="background:url(images/bardak.jpg); background-size: cover; background-position: center;">
+     <div id="unlimitedSecCont">
+     	<div id="unlimitedSecleft">
+
+     		<h1>BİZ HAZIRIZ</h1>
+     		<h2>Sizi ağırlamaktan onur duyarız</h2>
+
+     		<p>
+     			 Öyle mutfağa girip saatlerce ocak, fırın başında yemek yapmak eskisi kadar keyifli olamayabiliyor, farkındayız. Hemen pratik bir şeyler hazırlamak ama aynı zamanda da mükellef sofralar kurmak istiyoruz
+     		</p>
+
+     		<p style="border-bottom: 2px solid #ffffff;">
+     			 Bütün çabalarımız müşterilerimiz için
+     		</p>
+     		
+     	</div>
+        	
+     </div> 	
+   </section>	
+
+   <!-- FOOTER BÖLÜMÜ -->
+
+   <footer>
+   	<div id="footerContanier">
+   	   <div class="footerBox">
+   	   	<h1>DUYGUREST</h1>
+   	   	<a href=""><img src="images/mail.png"></a>
+   	   	<a href=""><img src="images/telefon.jpg"></a>
+   	   	<a href=""><img src="images/mail.png"></a>
+   	   	<a href=""><img src="images/telefon.jpg"></a>
+   	   </div>
+
+   	   <div class="footerBox">
+   	   	<h2>Bize Ulaşın</h2>
+   	   	<p><span style="color:purple;">Tel:</span> 012345678</p>
+   	   	<p><span style="color:purple;">Email:</span>zlduygu12@gmail.com</p>
+   	   	<p><span style="color:purple;">Web Adres:</span> www.duygurest.com</p>
+   	   	<p><span style="color:purple;">Adres:</span> Restoran Sok. Res Caddedi No:30</p>
+   	   	
+   	   </div>
+
+   	   <div class="footerBox">
+   	   	<h2>Abone Ol</h2>
+   	   	<p>Restorantımızn lezzetli yemeklerinden haberdar olmak istiyorsanız abone olmayı unutmayın :))
+   	   	</p>
+   	   	<form>
+   	   		<input type="email" name="email" placeholder="Email adresinizi giriniz" required>
+   	   		<br>
+   	   		<input type="submit" value="ABONE OL" style="background: #7f8c8d; color: #ffffff; cursor:pointer;">
+   	   	</form>
+   	   </div>
+       <div style="clear: left;"></div>
+   	</div>
+   	<div id="copyRight">
+   	&copy 2020 - Bu web sitesi Duygu Özel tarafından deneme amaçlı oluşturulmuştur.Böyle bir restorant bulunmamaktadır.
+   	</div>
+
+
+ 
+</footer>
+
+
+</body>
+</html>

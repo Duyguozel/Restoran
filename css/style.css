@@ -1,0 +1,613 @@
+* {
+	margin: 0; /*div ler arasaı boşluk*/
+	padding: 0; /*kutunun yazı ile arasındaki boşluk*/
+	border: 0;
+}
+
+body{
+	font-family: 'Dosis' , cursive;
+}
+
+h1{
+	font-family: 'Anton', cursive;
+}
+
+h2,h3{
+	font-family: 'Oswald' , cursive;
+}
+p{
+	font-family: 'Sansita' , cursive;
+}
+
+a{
+	text-decoration-line: none;
+}
+
+ /*  HEADER BAŞLANGICI*/
+ header#mainHeader{
+	width: 100%;
+	height: 750px;
+	position: relative;
+	background: url(../images/headerbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+header#contentHeader {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+div#ContentmainContainer {
+	width: 100%;
+	height: 400px;
+	position: relative;
+	margin-left: 50px;
+
+}
+
+div#mainContainer {
+	width: 1200px;
+	height: 750px;
+	margin: auto;
+	/*background-color: currentColor;*/
+}
+div#headerTop {
+	width: 1200px;
+	height: 50px;
+	position: relative;
+}
+
+ul#ulTopleft {
+	list-style-type: none; /*Linklerin yanındaki noktaları silinmesini sağlar*/
+	display: inline-block; /*Yazıların kapladığı alan kadar bir genişliğe sahip*/
+	float: left;  /*Sola dayalı*/
+
+}
+
+ul#ulTopleft li {
+    display: inline-block; /*Linklern yan yana sıralı olmasını sağlar*/
+    line-height: 50px;  /*Yazı ortalandı*/
+    border-right:  1px solid #3498db; /*Sağlara border ver*/
+    padding:  0px 10px; /*Üstten ve alttan sıfır boşluk - sağdan ve soldan 10px*/
+	
+}
+ul#ulTopleft li:first-child {
+	padding-left:  0; /*Yazı tam sola yasladı*/
+}
+
+ul#ulTopleft li:last-child {
+
+	border-right: 0; /*En sağdaki borderı sildi*/
+}
+
+ul#ulTopleft li a {
+    text-decoration-line: none; /*Alt çizgiler gitsin diye*/
+    color: #3498db;
+	
+}
+
+ul#ulTopleft li a:hover {
+    color: red;
+	
+}
+
+div#topRight {
+	height: 50px;
+	position: relative;
+	float: right; /*Sağa dayalı*/
+}
+
+div.topContectlogo {
+	width: 30px;
+	height: 30px;
+	margin-top: 10px; /*Üstten 10px boşluk*/
+	float: left;
+	margin-left: 10px;
+	
+}
+
+div.topContectText {
+	height:  50px;
+	line-height: 50px; /*Yazıyı top righta göre ortalar*/
+	float: left;
+	margin-left: 10px;
+	color: #3498db;
+}
+
+/*  NAV BAŞLANGIÇ */
+
+nav {
+	width: 100%;
+	height: 80px;
+	position: absolute;
+	background-color:  rgba(0,0,0,0.5);
+	top: 50px;
+}
+
+div#navContanier {
+	width: 1200px;
+	height: 80px;
+	margin: auto;
+	/*background: red;*/
+	position: relative;
+}
+div#navlogo {
+	font-family: 'Bungee' , cursive;
+	color: white;
+	line-height: 80px;
+	font-size: 30px;
+	display: inline;
+	float: left;
+}
+
+ul#ulnavRight {
+	list-style-type: none; /*Yandaki noktalar gitti.*/
+	display: inline-block;
+	float: right; /*Sağa dayalı*/
+}
+
+ul#ulnavRight li {
+	display: inline-block;
+	line-height: 80px;  /*Yazılar yan yana oldu*/
+	margin-left: 10px;  /*araya 10px boşluk verdik*/
+}
+
+ul#ulnavRight li a {
+	color: white;
+	text-decoration: none;
+}
+
+ul#ulnavRight li a:hover {
+	color: red;
+}
+
+div#headerText {
+	margin-top: 259px;
+    color: white;
+}
+
+div#headerText h1 {
+	line-height: 80px;
+	font-size: 40px;
+	text-shadow: 5px 5px 10px #000000; /*Yazıya gölgelik ekledik.*/
+
+}
+
+div#headerText h2 {
+	line-height: 60px;
+	font-size: 30px;
+	text-shadow: 5px 5px 10px #000000;
+}
+
+div#headerText p {
+	line-height: 40px;
+	font-size: 20px;
+	text-shadow: 5px 5px 10px #000000;
+	display: inline-block; /*paragrafın uzunluğu kadar genişliğe sahip*/
+	background-color: rgba(0,0,0,0.5);
+	padding-right: 20px; /*Sağdan 20px boşluk*/
+	text-shadow: 1px 1px 1px blue;
+}
+
+div#headerButtons {
+	margin-top: 20px;
+
+}
+
+div#headerButtons a{
+	line-height: 60px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	color: white;
+	padding: 0 10px; /*Üstten ve alttan boşluk yok. Sağsan ve soldan 10px boşluk*/
+	transition: all .2s ease-in-out; /*Linke tıklandığında yavaş geçiş oldu*/
+	
+}
+
+div#headerButtons a:last-child {
+    margin-left: 20px;
+    background-color: #7f8c8d;
+}
+
+div#headerButtons a:last-child:hover {
+    background-color: transparent;
+}
+
+div#headerButtons a:first-child {
+    background-color: #7f8c8d;
+}
+
+div#headerButtons a:first-child:hover {
+    background-color: transparent;
+}
+
+ /*SECTİON BASLANGICI*/
+
+ /*BİRİNCİ SECTİON*/
+section.limitSec {
+	width: 1200px;
+	/*height: 600px; clear:both; yaptığımız için yükseklik 
+	vermeye gerek yok*/
+	/*background-color: red;*/
+	margin: auto;
+	position: relative;
+    margin-top: 20px;
+
+}
+
+section.limitSec h1 , section.limitSec h2 {
+
+		text-align: center;
+		color: black;
+		font-size: 30px;
+}
+
+section.limitSec img {
+	width: 575px;
+	margin-top: 50px;
+	border: 1px solid black;
+	padding: 10px;
+	box-sizing: border-box; /*kenarlıklar ana genişliğe dahil oldu*/
+	float: left;
+
+}
+section.limitSec article {
+	width: 575px;
+	margin-top: 50px;
+	float: right;
+}
+
+section.limitSec article div.iconBox{
+	width: 100px;
+	height: 100px;
+	background-repeat: no-repeat;
+	margin: auto;
+
+}
+
+section.limitSec article p{
+	text-align: justify;
+}
+
+/*   İKİNCİ SECTION  */
+section.unlimitedSec {
+	width: 100%;
+	position: relative;
+	background: #000000;
+	margin-top: 50px;
+}
+
+section.unlimitedSec div#menuContanier {
+	width: 1200px;
+	height: 640px;
+	margin: auto;
+	position: relative;
+	display: flex;  /*Resim ekledeğimizde esnek yapı oluşması için*/
+	flex-direction: row;  /*Resimlerin satırda sıralanması için*/
+	flex-wrap: wrap;
+	justify-content: center;  /*Sutünda ortlansın diye*/
+	align-content: center; /*Resimler bitişik olur*/
+	transition: all .2s ease-in-out; /*Üzerine gelindiğinde işlem yavaşlasın diye*/
+}
+
+
+section.unlimitedSec div#menuContanier img {
+	width: 300px;
+	height: 300px;
+	opacity: 0.5;
+}
+section.unlimitedSec div#menuContanier img:hover {
+	opacity: 1;
+	transform: scale(1.05);  /*Görsel büyüsün diye*/
+}
+
+section.unlimitedSec div#menuContanier div#menulinkContainer {
+	width: 900px;
+	height: 300px;
+	margin-top: 170px;
+	border: 1px solid #ffffff;
+	position: absolute;
+	text-align: center;
+
+}
+
+section.unlimitedSec div#menuContanier div#menulinkContainer h1 {
+
+	font-size: 40px;
+	color: white;
+	line-height: 60px;
+	margin-top: 90px;
+}
+
+section.unlimitedSec div#menuContanier div#menulinkContainer a {
+
+	width: 240px;
+	height: 60px;
+	border: 1px solid #ffffff;
+	display: inline-block; /*Kutunun genişlik ve yükselik alması için*/
+	line-height: 60px;
+	color: red;
+	transition: all .2s ease-in-out;
+	
+}
+
+section.unlimitedSec div#menuContanier div#menulinkContainer a:hover {
+	transform: scale(1.3);
+	background-color: white;
+}
+
+/* ÜÇÜNCÜ SECTION */
+ section.limitSec div.teamContanier {
+ 	width: 1200px;
+ 	/*height: 700px;*/
+ 	margin: auto;
+ 	position: relative;
+ 	/*background-color: #000000;*/
+ }
+
+ section.limitSec div.teamContanier div.teamTile  {
+ 	width: 350px;
+ 	height: 525px;
+ 	position: relative;
+ 	float: left;
+ 	margin-left: 37.5px;
+ 	overflow: hidden; /*Taşan kısımları sakladık. -350px vermiştik*/
+
+ }
+
+ section.limitSec div.teamContanier div.teamTile img {
+ 	width: 350px;
+ 	height: 525px;
+ 	padding: 0;
+
+ }
+
+ section.limitSec div.teamContanier div.teamTile div.teamHover {
+ 	width: 350px;
+ 	height: 525px;
+ 	background-color: red;
+ 	position: absolute;
+ 	margin-top: 50px;
+ 	margin-left: -350px;
+ 	transition: all .5s ease;
+ 	background: url(../images/yemek.png);
+ 	opacity: 0.7;
+ }
+
+ section.limitSec div.teamContanier div.teamTile:hover  div.teamHover{
+ 	/*teamTile ın üzerine gelindiğinde teamHover görüntülensin*/
+ 	margin-left: 0;
+ }
+
+ section.limitSec div.teamContanier div.teamTile div.teamHover div.teamText {
+    background: black;
+ 	line-height: 60px;
+ 	margin-top: 202.5px;
+ 	
+}
+
+
+ section.limitSec div.teamContanier div.teamTile div.teamHover div.teamText h1 {
+    color: white;
+ 	
+ }
+
+  section.limitSec div.teamContanier div.teamTile div.teamHover div.teamText h2 {
+    color: white;
+ 	
+ }
+
+section.unlimitedSec div#unlimitedSecCont {
+	width: 1200px;
+	height: 700px;
+	margin: auto;
+	position: relative;
+
+}
+
+section.unlimitedSec div#unlimitedSecCont div#unlimitedSecleft{
+
+	width: 600px;
+	height: 700px;
+	position: relative;
+	background: rgba(0,0,0,0.5);
+	float: left;
+	color: #ffffff;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000000;
+
+}
+
+
+section.unlimitedSec div#unlimitedSecCont div#unlimitedSecleft h1{
+	font-size: 40px;
+	line-height: 80px;
+	margin-top: 138px;
+}
+
+section.unlimitedSec div#unlimitedSecCont div#unlimitedSecleft h2{
+	font-size: 30px;
+	line-height: 60px;
+}
+
+section.unlimitedSec div#unlimitedSecCont div#unlimitedSecleft p{
+	width: 500px;
+	font-size: 20px;
+	line-height: 32px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+/*about*-section*/
+
+section.contentContainer{
+	width: 1200px;
+	position: relative;
+	margin: 50px auto;
+}
+
+/* HAKKIMIZDA BAŞLANGICI*/
+section.contentContainer h1 , section.contentContainer h2{
+	text-align: center;
+	
+}
+
+section.contentContainer p{
+
+	margin: 20px 0;
+	
+}
+
+section.contentContainer div.managerBox{
+	height: 300px;
+	width: 300px;
+	position: relative;
+	margin: auto;
+	border-bottom:  4px solid #000000;
+	margin-bottom: 20px;
+}
+
+section.contentContainer div.managerBox img{
+	height: 300px;
+	width: 300px;
+
+}
+
+/* İLETİŞİM BAŞLANGICI*/
+
+section.contentContainer div.contactParts{
+	width: 500px;
+	height: 400px;
+	position: relative;
+	float: left;
+	margin-left: 22px;
+
+}
+
+section.contentContainer div.contactParts h2 {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+section.contentContainer div.contactParts input.input{
+	width: 240px;
+	height: 40px;
+	border: 1px solid #7f8c8d;	
+	box-sizing: border-box;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+section.contentContainer div.contactParts input.inputLeft {
+	float: left;
+}
+
+section.contentContainer div.contactParts input.inputRight{
+	float: right;
+}
+
+section.contentContainer div.contactParts textarea {
+	width: 500px;
+	height: 220px;
+	position: relative;
+	border: 1px solid #7f8c8d;
+	margin-top: 20px;
+	box-sizing: border-box;
+	padding: 10px;
+	resize: none; /*Kutunun büyüme küçülma özelliği kayboldu*/
+	border-radius: 10px;/*Kutunun yanlar oval oldu*/
+}
+section.contentContainer div.contactParts input.submit{
+	width: 240px;
+	height: 40px;
+	border: 1px solid #7f8c8d;	
+	box-sizing: border-box;
+	margin-top: 5px;
+	margin-left: 120px;
+	transition: all .2s ease;
+	border-radius: 10px;
+
+}
+
+section.contentContainer div.contactParts input.submit:hover{
+	cursor: pointer; /*Üzerine gelince el işsartei gelir*/
+	background-color: #7f8c8d;
+	color: #ffffff;
+}
+section.contentContainer iframe{
+	margin-top: 60px;
+}
+
+
+
+/* FOOTER BÖLÜMÜ*/
+
+footer {
+	width: 100%;
+	height: 360px;
+	position: relative;
+	background-color: rgba(0,0,0,0.5);
+	padding: 100px 0;  /*Üstten ve alttan 100px - sağdan ve soldan 0 px boşluk ver*/
+	
+}
+
+footer div#footerContanier {
+	width: 1200px;
+	position: relative;
+	margin: auto;
+
+}
+footer div#footerContanier div.footerBox {
+	width: 400px;
+	position: relative;
+	float: left;
+	color: #ffffff;
+	text-align: center;
+}
+footer div#footerContanier div.footerBox h1 {
+	font-family: 'Pacifico', cursive;
+	font-size: 40px;
+	margin-top: 120px;
+	margin-bottom: 20px;
+
+}
+
+footer div#footerContanier div.footerBox h2 {
+	font-size: 30px;
+	border-bottom: 5px solid #7f8c8d;
+	width: 350px;
+	margin: auto;
+	margin-top: 80px;
+	margin-bottom: 20px;
+
+
+}
+
+footer div#footerContanier {
+	line-height: 30px;
+	/*width: 350px;
+	margin: auto;*/
+
+}
+
+footer div#footerContanier div.footerBox input{
+	width: 250px;
+	height: 40px;
+	margin-top: 20px;
+	margin-right: 50px;
+	font-size: 18px;
+}
+
+footer div#copyRight{
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 0;
+	margin-top: 110px;
+	line-height: 14px;
+}
+
+
